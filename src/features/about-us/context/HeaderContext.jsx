@@ -18,6 +18,9 @@ const HeaderContext = () => {
         </p>
       </div>
       <CallToActionButton />
+      
+      {/** Head breaker  */}
+      <hr className='mt-6 border-0.5 border-gray-300' />
     </div>
   )
 }
