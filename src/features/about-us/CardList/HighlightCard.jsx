@@ -17,7 +17,7 @@ const iconMap = {
 
 const HighlightCard = () => {
     return (
-        <section className="service grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full border-4 border-dashed border-gray-400 px-3 py-5 gap-3 sm:px-5 sm:py-8 sm:gap-4 md:px-7 md:py-10 md:gap-5">
+        <section className="service grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full px-3 py-5 gap-3 sm:px-5 sm:py-8 sm:gap-4 md:px-7 md:py-10 md:gap-5">
             {data.map((item) => {
                 const Icon = iconMap[item.icon];
 
