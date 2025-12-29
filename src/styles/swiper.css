@@ -1,8 +1,7 @@
+/* Swiper styles */
 .card-banner {
   position: relative;
   width: 100%;
-  max-width: 60%;
-  height: 420px;
   border-radius: 16px;
   overflow: hidden;
   background: #000;
@@ -35,7 +34,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
   text-align: center;
   color: #fff;
 }
