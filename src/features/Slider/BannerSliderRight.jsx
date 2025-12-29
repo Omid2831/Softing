@@ -27,7 +27,7 @@ const BannerSliderRight = () => {
             key={service.id}
             className="flex items-center justify-center w-full"
           >
-            <article className="card-banner w-full max-w-full md:max-w-[60%] h-[300px] sm:h-[350px] md:h-[420px]">
+            <article className="card-banner w-full max-w-full md:max-w-[60%] h-75 sm:h-87.5 md:h-105">
               <img src={`${service.icon}`} alt={service.title} />
 
               <header className="overlay-context p-4 sm:p-6 md:p-8">
