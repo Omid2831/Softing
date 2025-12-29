@@ -1,0 +1,13 @@
+.service .highlight-card:nth-child(4n + 1),
+.service .highlight-card:nth-child(4n + 4) {
+  background-color: rgb(74, 196, 243);
+  color: #fff;
+  cursor: pointer;
+}
+
+.service .icon-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  
+}

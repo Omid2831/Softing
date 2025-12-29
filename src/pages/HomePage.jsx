@@ -1,5 +1,6 @@
 import React from 'react'
 import SliderList from '@/features/Slider/SliderList'
+import AboutUs from '@/features/about-us/AboutUs'
 
 const HomePage = () => {
     return (
