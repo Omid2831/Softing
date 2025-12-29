@@ -1,0 +1,17 @@
+.play-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: rgb(74, 196, 243);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 8px rgba(74, 196, 243, 0.15);
+  border: none;
+  padding: 0;
+}
+.play-button:hover {
+  background-color: rgb(108, 173, 205);
+}

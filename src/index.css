@@ -143,16 +143,3 @@
     @apply overflow-x-hidden max-w-full;
   }
 }
-
-/* Slider wavesshape styles */
-.wavesshape {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-}
-
-.wavesshape img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
