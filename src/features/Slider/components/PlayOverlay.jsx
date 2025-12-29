@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/play-overlay.css'
+import '../../../../styles/play-overlay.css'
 import { FaPlay } from "react-icons/fa";
-import { Button } from '../../../components/ui/button'
+import { Button } from '@/components/ui/button';
 
 const PlayOverlay = () => {
   return (
