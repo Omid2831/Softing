@@ -1,6 +1,6 @@
 import React from 'react'
-import BannerActionButton from '../BannerActionButton';
-import PlayOverlay from '../PlayOverlay';
+import BannerActionButton from '../../components/BannerActionButton';
+import PlayOverlay from './components/PlayOverlay';
 
 const BannerContextLeft = () => {
     return (
