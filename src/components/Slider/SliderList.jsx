@@ -1,33 +1,16 @@
 import React from 'react';
-import BannerActionButton from '../BannerActionButton';
+import BannerContextLeft from './BannerContextLeft';
+import BannerSliderRight from './BannerSliderRight';
 import '../../styles/slider-list.css';
-import PlayOverlay from '../PlayOverlay';
 
 const SliderList = () => {
     return (
         <section className='slider-section border-4 border-gray-600'>
-            <div className="content flex flex-col md:flex-row items-center justify-between px-8 py-16 max-w-7xl mx-auto">
+            <div className="content flex flex-col-reverse md:flex-row items-center justify-between px-8 py-16 max-w-7xl mx-auto">
                 {/* Left: Text */}
-                <div >
-                    <h1 className="font-bold text-3xl md:text-5xl mb-6">
-                        We're Building <span className="text-blue-400">Software</span> <br /> For You
-                    </h1>
-                    <p className="text-gray-600 mb-8">
-                        Celebrated delightful an especially increasing instrument am. <br />
-                        Indulgence contrasted sufficient to unpleasant in in insensible favourable. <br />
-                        Latter remark hunted enough vulgar say man. <br />
-                        Sitting hearted on it without me.
-                    </p>
-                    <div className='flex flex-row gap-2 px-6 py-4'>
-                        <BannerActionButton />
-                        <PlayOverlay />
-                    </div>
-                </div>
+                <BannerContextLeft />
                 {/* Right: Illustration */}
-                <div className="mt-10 md:mt-0 md:ml-10">
-                    {/* the banner as for the sliders */}
-                    <img src="" alt="Banner Illustration" className=" max-w-full" />
-                </div>
+                <BannerSliderRight />
             </div>
 
             {/* Wave image at the bottom */}
