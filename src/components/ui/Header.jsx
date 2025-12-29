@@ -18,7 +18,7 @@ const Header = () => {
     const divider = "border-b-1 border-gray-500 mt-2";
 
     return (
-        <header className="w-full border-4 border-gray-100 shadow-md bg-white/90 px-4 py-4 z-50">
+        <header className="fixed w-full border-4 border-gray-100 shadow-md bg-white/90 px-4 py-4 z-50">
             <div className="flex justify-between items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
                 {/* Mobile Menu Button - Left side on mobile */}
                 <button
