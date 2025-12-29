@@ -5,7 +5,7 @@ import '../../styles/slider-list.css';
 
 const SliderList = () => {
     return (
-        <section className='slider-section border-4 border-gray-600'>
+        <section className='slider-section mt-4'>
             <div className="content flex flex-col-reverse md:flex-row items-center justify-between px-8 py-16 max-w-7xl mx-auto">
                 {/* Left: Text */}
                 <BannerContextLeft />
